@@ -1,0 +1,12 @@
+gradio
+speechrecognition
+pydub
+pyttsx3
+ollama
+httpx
+streamlit
+faiss-cpu
+numpy
+sentence-transformers
+pypdf
+PyPDF2
