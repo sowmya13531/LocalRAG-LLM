@@ -1,16 +1,22 @@
 ## 🦙Offline Conversational AI with Llama3.2 via Ollama - RAG - FAISS
 
-Offline, privacy-first AI assistant using a **local LLaMA 3.2** via **Ollama model**, FAISS memory, and document-grounded retrieval. Ask any questions and as well as questions about your PDFs and get precise, context-aware answers — all offline.
+Offline, privacy-first AI assistant using a **local LLaMA 3.2** via **Ollama model**, FAISS memory, and document-grounded retrieval. It can answer general questions like chatgpt and as well as questions about your PDFs and get precise, context-aware answers — all offline.
 
 ## 🚀 Features
 
 - Local LLM inference with LLaMA 3.2 (via Ollama)
+- General purpose Q&A(chatgpt style)
 - Retrieval-Augmented Generation (RAG) using FAISS
 - PDF ingestion: upload multiple PDFs as knowledge sources
 - Conversational memory: remember previous messages
 - Offline & privacy-safe: no cloud APIs needed
 - Interactive UI: built with Streamlit
 - Extensible & modular: easy to add voice, additional embeddings, or new models
+  
+### Why it's Awesome?
+- PDF questions → grounded in document content
+- Normal questions → answered by LLaMA knowledge and conversation memory
+All interactions are stored in FAISS memory for multi-turn context
 
   
 ### 🗂 Project Structure
@@ -70,6 +76,11 @@ pip install -r requirements.txt
 3. Ask questions in the chat area under “💬 Chat with Local RAG-LLM”.
 
 4. LLaMA generates document-grounded answers, and the conversation is stored in memory.
+
+5. Normal questions → answered by LLaMA knowledge and conversation memory
+
+All interactions are stored in FAISS memory for multi-turn context
+
 
 ## 💡 How It Works (Pipeline)
 
