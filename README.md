@@ -1,4 +1,4 @@
-## 🦙Local RAG-LLM: Offline Conversational AI with FAISS
+## 🦙Offline Conversational AI with Llama3.2 via Ollama - RAG - FAISS
 
 Offline, privacy-first AI assistant using a **local LLaMA 3.2** via **Ollama model**, FAISS memory, and document-grounded retrieval. Ask any questions and as well as questions about your PDFs and get precise, context-aware answers — all offline.
 
@@ -15,7 +15,6 @@ Offline, privacy-first AI assistant using a **local LLaMA 3.2** via **Ollama mod
   
 ### 🗂 Project Structure
 
-bash
 ```
 LocalRAG-LLM/
 │
@@ -41,22 +40,19 @@ LocalRAG-LLM/
 
 1. Clone the repository:
 
-bash
 ```
 git clone https://github.com/sowmya13531/LocalRAG-LLM.git
 cd LocalRAG-LLM
 ```
 
-2. Create a virtual environment (optional but recommended):
-bash
+2. Create a virtual environment (optional but recommended)
 ```
 python -m venv venv
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
 ```
 
-4. Install dependencies:
-bash
+4. Install dependencies
 ```
 pip install -r requirements.txt
 ```
