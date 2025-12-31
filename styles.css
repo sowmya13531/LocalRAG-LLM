@@ -1,0 +1,16 @@
+/* styles.css */
+
+.stApp {
+    background-color: #0e1117;
+    color: #fafafa;
+}
+
+textarea, input {
+    background-color: #161b22 !important;
+    color: #fafafa !important;
+    border-radius: 8px;
+}
+
+button {
+    border-radius: 8px;
+}
