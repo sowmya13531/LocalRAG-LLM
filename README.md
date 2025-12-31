@@ -71,6 +71,10 @@ pip install -r requirements.txt
 
 *streamlit run app.py*
 
+Locally Deployed 
+Opens in the web browser 
+http://localhost:8501
+
 2. Upload PDF documents under “📄 Upload Doc”.
 
 3. Ask questions in the chat area under “💬 Chat with Local RAG-LLM”.
